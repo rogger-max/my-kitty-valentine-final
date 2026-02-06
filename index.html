@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For My Love 💖</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Floating Hello Kitty emojis -->
+<div class="bg-emojis">🎀 🐱 💕 🌸 🎀 🐱 💕</div>
+
+<!-- Page 1 -->
+<section class="page" id="page1">
+  <h1>🌹 Happy Rose Day, My Love 🌹</h1>
+  <p class="chat">Hey my pretty kitty 🐱💗</p>
+  <p class="chat">I hope you’re smiling in Australia right now.</p>
+  <p class="chat">You’re the calm in my chaos 🥰</p>
+  <button onclick="nextPage('page2')">Next 💗</button>
+</section>
+
+<!-- Page 2 -->
+<section class="page" id="page2">
+  <p class="chat">Every moment with you feels safe.</p>
+  <p class="chat">I love how soft your heart is.</p>
+  <button onclick="playAndNext('page3')">Play Song & Next 🎧</button>
+</section>
+
+<!-- Page 3 -->
+<section class="page" id="page3">
+  <h2>My favorite memories 💞</h2>
+  <img src="photo1.jpg" alt="Photo 1">
+  <img src="photo2.jpg" alt="Photo 2">
+  <img src="photo3.jpg" alt="Photo 3">
+  <button onclick="nextPage('page4')">One more thing 💗</button>
+</section>
+
+<!-- Page 4 -->
+<section class="page" id="page4">
+  <h2>Will you be my Valentine? 💘</h2>
+  <p class="chat">Not just this year…</p>
+  <p class="chat">But every year with me 🥺💞</p>
+</section>
+
+<!-- Song -->
+<audio id="song">
+  <source src="song.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
