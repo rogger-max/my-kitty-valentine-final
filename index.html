@@ -2,47 +2,61 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>For My Love 💖</title>
+<title>For My Puku Baby 💖</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<!-- Floating Hello Kitty emojis -->
-<div class="bg-emojis">🎀 🐱 💕 🌸 🎀 🐱 💕</div>
+<!-- Floating Emojis -->
+<div class="bg-emojis">🎀 🐱 💕 🌸 💖 🎀 🐱 💕</div>
 
-<!-- Page 1 -->
+<!-- PAGE 1 -->
 <section class="page" id="page1">
-  <h1>🌹 Happy Rose Day, My Love 🌹</h1>
-  <p class="chat">Hey my pretty kitty 🐱💗</p>
+  <h1>🌹 Happy Rose Day My Love 🌹</h1>
+  <p class="chat">Hey sadu my puku baby 🐱💖</p>
   <p class="chat">I hope you’re smiling in Australia right now.</p>
-  <p class="chat">You’re the calm in my chaos 🥰</p>
+  <p class="chat">You are my calm, my safe place, my happiness.</p>
   <button onclick="nextPage('page2')">Next 💗</button>
 </section>
 
-<!-- Page 2 -->
+<!-- PAGE 2 -->
 <section class="page" id="page2">
-  <p class="chat">Every moment with you feels safe.</p>
-  <p class="chat">I love how soft your heart is.</p>
-  <button onclick="playAndNext('page3')">Play Song & Next 🎧</button>
+  <p class="chat">My twinny 🫶</p>
+  <p class="chat">I love you more than words can explain.</p>
+  <p class="chat">Every moment with you feels warm and peaceful.</p>
+  <p class="chat">You’re the love I never want to lose 🥺💞</p>
+  <button onclick="playAndNext('page3')">Heal Me 🎧💗</button>
 </section>
 
-<!-- Page 3 -->
+<!-- PAGE 3 -->
 <section class="page" id="page3">
-  <h2>My favorite memories 💞</h2>
-  <img src="photo1.jpg" alt="Photo 1">
-  <img src="photo2.jpg" alt="Photo 2">
-  <img src="photo3.jpg" alt="Photo 3">
-  <button onclick="nextPage('page4')">One more thing 💗</button>
+  <h2>Our Beautiful Memories 💞</h2>
+
+  <div class="slider">
+    <div class="slides" id="slides">
+      <img src="photo1.jpg" alt="Photo 1">
+      <img src="photo2.jpg" alt="Photo 2">
+      <img src="photo3.jpg" alt="Photo 3">
+    </div>
+  </div>
+
+  <button onclick="nextSlide()">Next Photo 💖</button>
+  <button onclick="nextPage('page4')">Next Page 💗</button>
 </section>
 
-<!-- Page 4 -->
+<!-- PAGE 4 -->
 <section class="page" id="page4">
-  <h2>Will you be my Valentine? 💘</h2>
-  <p class="chat">Not just this year…</p>
-  <p class="chat">But every year with me 🥺💞</p>
+  <h2>I Wanna Marry You 💍💖</h2>
+  <p class="chat">Not just today…</p>
+  <p class="chat">Not just this Valentine…</p>
+  <p class="chat">But every lifetime with you 🥹💞</p>
+  <p class="chat">Will you be my Valentine, my forever, my wife? 💘</p>
+
+  <button onclick="alert('Yay! I love you so much 💖🥰')">Yes 💕</button>
+  <button onclick="alert('Oh no 😢 I will keep trying 💖')">No 😢</button>
 </section>
 
-<!-- Song -->
+<!-- Music -->
 <audio id="song">
   <source src="song.mp3" type="audio/mpeg">
 </audio>
